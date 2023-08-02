@@ -121,7 +121,7 @@ body{
     display: none;
 }
 #hero{
-    background-image:url("page.jpg");
+    background-image:url("assets/page.jpg");
     height:100vh;
     width: 100%;
     background-position: top 30% right 100% left 100%;
@@ -138,7 +138,7 @@ body{
     padding-bottom: 15px;
 }
 #hero button{
-    background-image: url("button.png");
+    background-image: url("assets/button.png");
     height:10vh;
     width: 20%;
     background-position: top 90% right 30% ;
@@ -226,7 +226,7 @@ body{
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-image: url(banner.jpg);
+    background-image: url(assets/banner.jpg);
    
 }
 #banner h4{
@@ -251,7 +251,7 @@ padding: 10px 0;
     flex-direction: column;
     justify-content: center;
     align-items: flex-end;
-    background-image: url(banner2.jpg);
+    background-image: url(assets/banner2.jpg);
     min-width:580px ;
     height: 50vh;
     background-size: cover;
@@ -260,7 +260,7 @@ padding: 10px 0;
 
 }
 #sm-banner .banner-box2{
-    background-image: url(banner3.jpg);
+    background-image: url(assets/banner3.jpg);
 }
 #sm-banner h4{
     color: azure;
@@ -293,7 +293,7 @@ padding: 10px 0;
     flex-direction: column;
     justify-content: center;
     align-items: flex-end;
-    background-image: url(banner4.jpg);
+    background-image: url(assets/banner4.jpg);
     min-width:30% ;
     height: 30vh;
     background-size: cover;
@@ -303,12 +303,12 @@ padding: 10px 0;
     margin-bottom: 20px;
 }
 #banner-3 .banner-box2{
-    background-image: url(banner5.jpg);
+    background-image: url(assets/banner5.jpg);
 
 }
 
 #banner-3 .banner-box3{
-    background-image: url(banner6.jpg);
+    background-image: url(assets/banner6.jpg);
 }
 #banner-3 h2{
     display: flex;
@@ -328,7 +328,7 @@ padding: 10px 0;
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
-    background-image: url(banner7.jpg);
+    background-image: url(assets/banner7.jpg);
     width: 100%;
     background-repeat: no-repeat;
     background-position: 20% 30%;
@@ -420,7 +420,7 @@ footer a:hover{
 
 /*shop page*/
 #page-header{
-    background-image: url(shoppagebanner.jpg);
+    background-image: url(assets/shoppagebanner.jpg);
     height: 50vh;
     background-size: cover;
     display: flex;
@@ -503,7 +503,7 @@ footer a:hover{
 }
 /* blog page*/
 #page-header.blog-header{
-background-image: url(blogpagebanner.jpg);
+background-image: url(assets/blogpagebanner.jpg);
 height: 70vh;
 }
 
@@ -574,7 +574,7 @@ height: 70vh;
 /*about*/
 
 #page-header.about-header{
-    background-image: url(aboutpagebanner.jpg);
+    background-image: url(assets/aboutpagebanner.jpg);
 }
 #about-head{
     display: flex;
@@ -811,7 +811,7 @@ height: 70vh;
         font-size: 25px;
     }
     #page-header.blog-header{
-        background-image: url(blogpagebanner.jpg);
+        background-image: url(assets/blogpagebanner.jpg);
         height: 40vh;
         }
         /* about*/
