@@ -497,18 +497,10 @@ footer a:hover{
 #prodetails .single-pro-details input:focus{
     outline: none;
 }
-/* cart*/
-#cart-add{
-    flex-direction: column;
-}
-#coupon{
-    width: 100%;
-}
 #prodetails .single-pro-details span{
     line-height: 25px;
 
 }
-
 /* blog page*/
 #page-header.blog-header{
 background-image: url(assets/blogpagebanner.jpg);
@@ -716,6 +708,7 @@ height: 70vh;
     margin-bottom: 20px;
     border: 1px solid rgb(85, 85, 85);
 }
+/*cart*/
 #cart {
     overflow-x: auto;
 }
@@ -794,6 +787,8 @@ height: 70vh;
     font-size: 16px;
 
 }
+
+
 
 
 @media (max-width:799px){
@@ -906,7 +901,9 @@ height: 70vh;
 #contact-details .details span, #form-details form span {
     font-size: 16px;
 }
+
 }
+
 
 
 
@@ -1041,6 +1038,13 @@ height: 70vh;
 #contact-details .map
 {
     width:100%;
+}
+/* cart*/
+#cart-add{
+    flex-direction: column;
+}
+#coupon{
+    width: 100%;
 }
 }
 
